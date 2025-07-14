@@ -9,8 +9,8 @@ import {
   LayoutDashboard,
 } from "lucide-react";
 
-import { NavMain } from "@/components/nav-main";
-import { NavUser } from "@/components/nav-user";
+import { NavMain } from "@/components/common/nav-main";
+import { NavUser } from "@/components/common/nav-user";
 import {
   Sidebar,
   SidebarContent,
@@ -19,7 +19,7 @@ import {
   SidebarMenuButton,
   SidebarRail,
 } from "@/components/ui/sidebar";
-import Logo from "../public/Logo/flowLogo.svg";
+import Logo from "../../public/Logo/flowLogo.svg";
 import Image from "next/image";
 
 // This is sample data.

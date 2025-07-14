@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar";
-import { AppSidebar } from "@/components/app-sidebar";
-import Header from "@/components/common/Header";
+import { AppSidebar } from "@/components/common/app-sidebar";
+import Header from "@/components/common/header-main";
 
 export const metadata: Metadata = {
   title: "Dashboard",
