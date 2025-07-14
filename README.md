@@ -1,19 +1,21 @@
-# flow
+🌊 Flow — Task Manager Web App
+Flow is a personal task management web app built with Next.js, designed to help individuals stay organized, productive, and focused. With a sleek, modern UI and essential features like task creation, Kanban-style drag-and-drop, filtering, and real-time updates, Flow provides a smooth and responsive experience across all devices.
 
-Flow: Clear your mind. Focus on what matters.
+🚀 Features
+✅ User Authentication (Supabase Auth)
+📝 Task Creation & Management
+📁 Organize by Projects
+📌 Prioritize with Status, Due Dates, and Priority Levels
+📦 Kanban Board with Drag & Drop
+🔍 Filter & Sort Tasks
+🔔 Reminders and Notifications
+📊 Analytics Dashboard
+🌙 Light/Dark Mode Toggle
+📱 Fully Responsive Design
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🛠️ Tech Stack
+Frontend: Next.js, React, Tailwind CSS
+Backend: Supabase (PostgreSQL, Auth, Realtime, Storage)
+Drag and Drop: react-beautiful-dnd / @dnd-kit/core
+Charts: Recharts or Chart.js
+Deployment: Vercel
